@@ -57,7 +57,6 @@ export const ROIDashboardSchema = z.object({
     tagline: z.string(),
     badge: z.string(),
   }),
-  watermark: z.string(),
   backgroundFile: z.string(),
 });
 
@@ -132,22 +131,20 @@ export const ROIDashboard: React.FC<ROIDashboardProps> = (props) => {
           pointerEvents: "none",
         }}
       />
-      {props.watermark ? (
-        <div
-          style={{
-            position: "absolute",
-            bottom: 2,
-            right: 8,
-            fontSize: 32,
-            color: "white",
-            opacity: 0.28,
-            fontWeight: 400,
-            letterSpacing: "0.06em",
-          }}
-        >
-          {props.watermark}
-        </div>
-      ) : null}
+      <div
+        style={{
+          position: "absolute",
+          bottom: 2,
+          right: 8,
+          fontSize: 32,
+          color: "white",
+          opacity: 0.28,
+          fontWeight: 400,
+          letterSpacing: "0.06em",
+        }}
+      >
+        tweeto
+      </div>
     </AbsoluteFill>
   );
 };

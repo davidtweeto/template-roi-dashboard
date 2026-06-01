@@ -52,7 +52,6 @@ export const RemotionRoot: React.FC = () => {
           tagline: "Better decisions under real constraints",
           badge: "CONSTRAINT-AWARE",
         },
-        watermark: "tweeto",
         backgroundFile: "bg.png",
       }}
     />

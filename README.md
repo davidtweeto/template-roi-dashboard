@@ -49,7 +49,6 @@ All composition props are editable live in Remotion Studio via the Props panel. 
 | `operationalROI` | Card title/subtitle, 3 stability bars, schedule adherence row |
 | `strategicROI` | Card title/subtitle, 4 KPI label rows, network chart label |
 | `footer` | Tagline text and badge text |
-| `watermark` | Watermark text (bottom-right corner, set to `""` to hide) |
 | `backgroundFile` | Filename inside `public/` (or `""` for no image) |
 
 ### KPI direction
