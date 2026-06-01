@@ -5,9 +5,6 @@ A [Remotion](https://www.remotion.dev/) template for animated ROI dashboard vide
 <p align="center">
   <a href="assets/template01.png"><img src="assets/template01.png" width="49%" /></a>
   <a href="assets/template02.png"><img src="assets/template02.png" width="49%" /></a>
-  <br/>
-  <a href="assets/template03.png"><img src="assets/template03.png" width="49%" /></a>
-  <a href="assets/template04.png"><img src="assets/template04.png" width="49%" /></a>
 </p>
 
 ## Using with an AI agent
@@ -33,11 +30,11 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to preview in Remotion Studio.
 
+## Customizing content
+
 <p align="center">
   <a href="assets/RemotionStudio01.png"><img src="assets/RemotionStudio01.png" width="100%" /></a>
 </p>
-
-## Customizing content
 
 All composition props are editable live in Remotion Studio via the Props panel. The schema is defined in `src/Composition.tsx` using Zod. Edit `defaultProps` in `src/Root.tsx` to set your own content:
 
