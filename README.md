@@ -33,7 +33,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to preview i
 ## Customizing content
 
 <p align="center">
-  <a href="assets/RemotionStudio01.png"><img src="assets/RemotionStudio01.png" width="100%" /></a>
+  <a href="assets/studio01.png"><img src="assets/studio01.png" width="100%" /></a>
 </p>
 
 All composition props are editable live in Remotion Studio via the Props panel. The schema is defined in `src/Composition.tsx` using Zod. Edit `defaultProps` in `src/Root.tsx` to set your own content:
