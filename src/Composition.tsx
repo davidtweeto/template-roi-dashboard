@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { loadFont } from "@remotion/google-fonts/Inter";
-import { AbsoluteFill, Sequence, useCurrentFrame, interpolate } from "remotion";
+import { AbsoluteFill, Sequence, useCurrentFrame, interpolate, staticFile } from "remotion";
 import { Background } from "./components/Background";
 import { Header } from "./components/Header";
 import { HardROICard } from "./components/HardROICard";
@@ -134,16 +134,27 @@ export const ROIDashboard: React.FC<ROIDashboardProps> = (props) => {
       <div
         style={{
           position: "absolute",
-          bottom: 2,
-          right: 8,
-          fontSize: 32,
-          color: "white",
-          opacity: 0.28,
-          fontWeight: 400,
-          letterSpacing: "0.06em",
+          bottom: 3,
+          left: 14,
+          opacity: 0.25,
+          display: "flex",
+          alignItems: "center",
+          gap: 8,
+          pointerEvents: "none",
         }}
       >
-        tweeto
+        <img src={staticFile("LinkedIn_icon.svg")} style={{ width: 32, height: 32 }} />
+        <span
+          style={{
+            color: "#ffffff",
+            fontSize: 32,
+            fontWeight: 600,
+            fontFamily,
+            letterSpacing: "0.05em",
+          }}
+        >
+          tweeto
+        </span>
       </div>
     </AbsoluteFill>
   );
